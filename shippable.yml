@@ -16,15 +16,3 @@ before_script:
 script:
   - cd sample
   - lein test2junit
-  - ls -la
-  - cat build.xml
-  - cd shippable
-  - ls -la
-  - cd testresults
-  - ls -la
-  - cd xml
-  - ls -la
-  - cat sample.core-test.xml
-  - cd ..
-  - cd tmp
-  - ls -la
