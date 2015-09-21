@@ -5,8 +5,7 @@ language: clojure
 lein:
   - lein2
 
-archive:
-  - true
+archive: true
 
 # Create directories for test and coverage reports
 before_script:
