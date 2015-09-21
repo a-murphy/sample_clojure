@@ -22,3 +22,8 @@ script:
   - ls -la
   - cd testresults
   - ls -la
+  - cd xml
+  - ls -la
+  - cd ..
+  - cd tmp
+  - ls -la
