@@ -18,4 +18,6 @@ script:
   - lein test2junit
   - ls -la
   - cat build.xml
+  - cd shippable
+  - ls -la
   
