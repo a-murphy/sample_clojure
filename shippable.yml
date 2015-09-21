@@ -5,8 +5,6 @@ language: clojure
 lein:
   - lein2
 
-archive: true
-
 # Create directories for test and coverage reports
 before_script:
   - mkdir -p shippable/testresults
