@@ -17,4 +17,5 @@ script:
   - cd sample
   - lein test2junit
   - ls -la
+  - cat build.xml
   
