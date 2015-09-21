@@ -20,4 +20,5 @@ script:
   - cat build.xml
   - cd shippable
   - ls -la
-  
+  - cd testresults
+  - ls -la
