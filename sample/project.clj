@@ -4,7 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]]
+  :profiles {:dev {:plugins [[test2junit "1.1.1"]]}}
   :main ^:skip-aot sample.core
   :target-path "target/%s"
-  :test2junit-output-dir "shippable/testresults/result.xml"
-  :profiles {:dev {:plugins [[test2junit "1.1.1"]]}})
+  :test2junit-output-dir "shippable/testresults/result.xml")
