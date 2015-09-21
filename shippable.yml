@@ -12,6 +12,9 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
+install:
+  - test2junit
+
 # Running the test with Leiningen
 script:
   - cd sample
