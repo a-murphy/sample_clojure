@@ -15,6 +15,7 @@ before_script:
 # Running the test with Leiningen
 script:
   - cd sample
+  - lein test
   - lein test2junit
   - ls -la
   - cat build.xml
