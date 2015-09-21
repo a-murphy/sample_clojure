@@ -24,6 +24,7 @@ script:
   - ls -la
   - cd xml
   - ls -la
+  - cat sample.core-test.xml
   - cd ..
   - cd tmp
   - ls -la
