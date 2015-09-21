@@ -4,7 +4,6 @@ language: clojure
 
 lein:
   - lein2
-  - test2junit  
 
 archive: true
 
@@ -17,3 +16,4 @@ before_script:
 script:
   - cd sample
   - lein test
+  - lein test2junit  
