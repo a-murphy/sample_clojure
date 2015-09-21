@@ -7,5 +7,4 @@
   :main ^:skip-aot sample.core
   :target-path "target/%s"
   :test2junit-output-dir "shippable/testresults"
-  ;;:profiles {:uberjar {:aot :all}})
   :profiles {:dev {:plugins [[test2junit "1.1.1"]]}}
