@@ -6,5 +6,5 @@
   :dependencies [[org.clojure/clojure "1.5.1"]]
   :main ^:skip-aot sample.core
   :target-path "target/%s"
-  :test2junit-output-dir "shippable/testresults"
+  :test2junit-output-dir "shippable/testresults/result.xml"
   :profiles {:dev {:plugins [[test2junit "1.1.1"]]}})
