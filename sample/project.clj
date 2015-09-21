@@ -6,5 +6,4 @@
   :dependencies [[org.clojure/clojure "1.5.1"]]
   :main ^:skip-aot sample.core
   :target-path "target/%s"
-  :test2junit-output-dir "shippable/testrsults"
   :profiles {:uberjar {:aot :all}})
