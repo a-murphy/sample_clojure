@@ -1,0 +1,1 @@
+FROM shippable/minv2
