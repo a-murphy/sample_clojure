@@ -15,6 +15,3 @@ script:
   - cd sample
   - return 0
 #  - lein test2junit
-
-build_image:
-  net: 'bridge'
