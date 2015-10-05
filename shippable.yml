@@ -16,7 +16,6 @@ script:
   - return 0
 #  - lein test2junit
 
-build_image:
-  name: ubuntu
+build_image: ubuntu
 
 commit_image: amurphy/sample_clojure
