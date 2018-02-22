@@ -11,4 +11,5 @@ build:
     image_tag: master
     pull: true
   ci:
-    - lein test
+    - cd sample
+    - lein test2junit
