@@ -11,6 +11,6 @@ build:
 #    image_tag: master
 #    pull: true
   ci:
-    - ls -l /usr/local/bin/clj
+    - ls -l ~/lib
     - cd sample
     - lein test2junit
